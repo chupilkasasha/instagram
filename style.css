@@ -1,0 +1,58 @@
+
+body{
+	font-family: 'Billabong';
+	background-color: #dbe7ff;
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+
+.insta__body{
+	width: 400px;
+	height: 400px;
+	/*background-color: black;*/
+	margin: 0 auto;
+	border-radius: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	background: -moz-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	background: -ms-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	background: -o-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+}
+
+.insta__body__border{
+	width: 290px;
+	height: 290px;
+	border-radius: 90px;
+	border: 27px solid #ffffff;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.insta__body__circle{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	border: 27px solid #ffffff;
+	box-sizing: border-box;
+	margin: auto auto;
+}
+
+.insta__body__point{
+	width: 25px;
+	height: 25px;
+	background-color: #ffffff;
+	border-radius: 100px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
